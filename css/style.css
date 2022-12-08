@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    font-family:'Times New Roman', Times, serif;
+}
+header{
+    background-color: black;
+    height: 10vh;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 2vh;
+}
+#search-container{
+    margin-top: 2vh;
+    padding: 3vh;
+    font-size: 25px;
+}
+input{
+    font-size: 20px;
+}
+#search{
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 8vw;
+}
+#search:hover{
+    cursor: pointer;
+
+}
+h2{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#movie{
+    display: flex;
+    justify-content: space-around;
+    padding: 3vh;
+}
+#movie P{
+    font-size: 20px;
+    padding: 2vh; 
+}
